@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Get your Hugging Face key from environment variable
-HF_API_KEY = os.getenv("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")
+HF_API_KEY = os.getenv("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")
 
 @app.route("/")
 def home():
@@ -42,3 +42,4 @@ def chat():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
